@@ -16,7 +16,7 @@ export default function Footer() {
 
             <a href="#inicio" className="footer-logo">
               <img
-                src="/parceiros/CCMLOGO.png"
+                src="/logos/logo-ccm.png"
                 alt="CCM"
               />
             </a>

@@ -1,0 +1,108 @@
+.hello-page {
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+  box-sizing: border-box;
+
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(170, 142, 82, 0.18),
+      transparent 30%
+    ),
+    #22314d;
+}
+
+.hello-card {
+  width: 100%;
+  max-width: 600px;
+
+  padding: 65px 50px;
+
+  box-sizing: border-box;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border-radius: 6px;
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.3);
+}
+
+.hello-logo {
+  width: 120px;
+  height: auto;
+
+  margin-bottom: 35px;
+}
+
+.hello-smile {
+  color: #aa8e52;
+
+  font-size: 52px;
+  font-weight: 500;
+
+  letter-spacing: 4px;
+
+  margin-bottom: 18px;
+}
+
+.hello-label {
+  color: #aa8e52;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+}
+
+.hello-card h1 {
+  margin: 18px 0;
+
+  color: #22314d;
+
+  font-size: 58px;
+  font-weight: 500;
+
+  letter-spacing: -2px;
+}
+
+.hello-card p {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 16px;
+
+  line-height: 1.7;
+}
+
+.hello-line {
+  width: 60px;
+  height: 3px;
+
+  margin: 35px auto 0;
+
+  background: #aa8e52;
+}
+
+@media (max-width: 600px) {
+  .hello-page {
+    padding: 20px;
+  }
+
+  .hello-card {
+    padding: 50px 25px;
+  }
+
+  .hello-card h1 {
+    font-size: 42px;
+  }
+}

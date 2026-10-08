@@ -39,7 +39,7 @@ const topics = [
     id: '04',
     title: 'Ferramentas de corte',
     shortTitle: 'Ferramentas',
-    image: '/imagens/Ferramenta.png',
+    image: '/imagens/ferramenta.png',
     video: '/videos/Ferramenta.mp4',
     subtitle: 'Precisão e produtividade',
     description:
@@ -271,7 +271,7 @@ export default function Topics() {
                   />
 
                   <span>
-                    EXPLORE O CCM
+                    EXPLORE A CCM
                   </span>
 
                 </div>
